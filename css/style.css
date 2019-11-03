@@ -1,4 +1,4 @@
-body
+body {
   font-size: 14px;
 }
 
@@ -8,29 +8,31 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
-
-section {
-  margin: 0 auto;
-  width: 60%;
 }
 
+section {
+  margin: 0;
+  width: 60%;
+}
+/* I placed a colon here */
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
 .example, h3 {
-  padding-top: 30px;
-  text-align center
-}
-
-h3 {
   font-size: 1.3em;
+  padding-top: 30px;
+  text-align: center;
 }
+/* I added a colon and semicolon to the text-align */
+/* I deleted the second h3 because it had already been defined in the previous command and added the font size to the previous command */
 
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+/* I added a colon to the margin command */
+/* Additionally I added curly brackets where they were missing */
